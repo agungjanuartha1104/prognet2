@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Biodata extends Model
+class data_diri extends Model
 {
     use HasFactory;
+    protected $fillable = ['nama','alamat','tgl_lahir','Gender'];
 }
